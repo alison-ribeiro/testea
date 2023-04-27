@@ -51,3 +51,9 @@ def update_figure(selected_year):
         'layout': {
             'title': 'Gapminder Visualization',
             'xaxis': {'title': 'GDP per capita'},
+            'yaxis': {'title': 'Life Expectancy'},
+            'hovermode': 'closest'
+        }
+    }
+
+    return fig
